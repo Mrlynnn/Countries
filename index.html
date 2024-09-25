@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countries</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_container">
+        <h4 id="logo">Where is the world?</h4>
+        <div id="light_mode">
+          <i class="fa-regular fa-moon"></i>
+          <h4 id="light_mode_text">Light Mode</h4>
+        </div>
+      </div>
+    </div>
+    <div class="finding_county">
+      <div class="search_country">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          name=""
+          id="search"
+          placeholder="Search for a country..."
+        />
+        <i
+          class="fa-solid fa-xmark"
+          style="color: #126baf"
+          id="xmark_search"
+        ></i>
+      </div>
+      <div class="filter">
+        <select name="" id="select_country">
+          <option value="" selected hidden id="filter_text">
+            Filter by Region
+          </option>
+          <option value="">Africa</option>
+          <option value="">Americas</option>
+          <option value="">Asia</option>
+          <option value="">Europe</option>
+          <option value="">Oceania</option>
+        </select>
+        <span id="filter_line">|</span>
+        <i class="fa-solid fa-xmark" id="xmark_filter"></i>
+      </div>
+    </div>
+    <section id="cards_section">
+      <!-- <article class="card">
+        <img src="" alt="" id="card_image" />
+        <div class="describe">
+          <h3 id="card_country_name"></h3>
+          <span id="card_population"><b>Population:</b></span>
+          <span id="card_region"><b>Region:</b></span>
+          <span id="card_capital"><b>Capital:</b></span>
+        </div>
+      </article> -->
+    </section>
+    <script
+      src="https://kit.fontawesome.com/e577b01fa6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
